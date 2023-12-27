@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #181823;
+}
+
+p{
+    text-align: center;
+    background-color: #FC7300;
+}
+
+h2{
+    text-align: center;
+    color: #EFF5F5;
+}
+
+h3{
+    text-align: center;
+    color: #EFF5F5;
+    font-style: oblique;
+}
+
+h5{
+    background-color: #FC7300;
+}
+
+section {
+    display: inline;
+}
+
+.navbar {
+    background-color: #FC7300; 
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link{ 
+    color: #eff5f5 ;
+} 
+
+.containerNav ul {
+    background-color: #181823;
+    display: inline;
+}
+
+.conteiner-nav {
+    background-color: #FC7300;
+    color: #FC7300;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 40%; 
+    left: 42%; 
+    color: #EFF5F5; 
+    padding: 10px
+}
+
+
+.cardText{
+    text-align: center;
+}
+
+.main{ 
+    padding: 50px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.container-text{
+    text-align: center;
+}
+
+.container-text > h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.card{
+    width: 30%;
+    height: 400px;
+    background-color: #FC7300;
+}
+
+.card-img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 4px  #05050554 ;
+    /* transition: all 2s ease-in-out; */
+    cursor: pointer;
+    border-radius: 5%;
+    
+}
+
+.card-product-name{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.card-product-description{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.card-title{
+    color: #EFF5F5;
+    text-align: center;
+}
+
+.footer{
+    padding: 40px 10px;
+    background-color: #FC7300;
+}
+
+.footer > p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.list-social-media > li > a {
+    color: #181823;
+}
+
+.list-social-media > li {
+    display: flex;
+    justify-content: center;
+    margin: 5px 30px;
+}
+
+
+.propuestaEducativa{
+    text-align: center;
+    background-color: #EFF5F5;
+    color: #181823;
+}
+
+.main-formulario{
+    background-color: #181823;
+    padding: 70px;
+    text-align: justify;
+}
+
+.form-label{
+    color: #FC7300;
+}
+
+#text-color-form{
+    background-color: #EFF5F5;
+    color: #181823;
+    text-align: center;
+    padding: 45px;
+    font-weight: bolder;
+}
+
+#inputState{
+    color: #181823;
+}
+
+.container-social-media{
+    margin-right: 35px;
+}
+
+.btnEnviar{
+    background-color: #FC7300;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+@media (max-width: 320px){
+    .footer{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px){
+    .footer{
+        flex-direction: column;
+    }
+}
